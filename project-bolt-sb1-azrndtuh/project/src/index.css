@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add global background color to prevent white flash */
+body {
+  @apply bg-gradient-to-br from-cyan-950 via-cyan-900 to-blue-900;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
